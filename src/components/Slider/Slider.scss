@@ -1,27 +1,29 @@
-
 #slider {
-  height: 800px;
-
-
- 
+  height: 824px;
 }
 
 #slider-wrapper {
-  width: 70%;
+  width: 66%;
   position: relative;
   overflow: hidden;
 }
 
-.top, .bottom {
+.top,
+.bottom {
   position: relative;
-
 }
 
 .top {
-  width: 110vw;
-  right: 39rem;
+  width: 111.7vw;
+  right: 42rem;
 }
 
 .bottom {
   right: 18rem;
+  width: 95rem;
+}
+
+.slide {
+  padding: 0.4rem;
+  border-radius: 1rem;
 }

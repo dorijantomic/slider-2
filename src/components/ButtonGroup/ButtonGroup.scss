@@ -2,18 +2,16 @@
 }
 
 .button-group-container {
-    position: fixed;
-    left: 87rem;
-    bottom: 17rem;
+  position: absolute;
+  left: 82.5rem;
+  bottom: 6rem;
 }
-
-
 
 .gray,
 .blue {
   height: 5rem;
   width: 5rem;
-  border: 1px solid blue;
+
   border-radius: 1rem;
   display: flex;
   flex-flow: column;
@@ -22,4 +20,9 @@
 
 .gray {
   margin-bottom: 1rem;
+  border: 1px solid gray;
+}
+
+.blue {
+  border: 1px solid #323f96;
 }

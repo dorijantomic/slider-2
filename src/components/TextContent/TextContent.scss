@@ -1,12 +1,17 @@
 p {
-    font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 2.7rem;
+  color: #323f96;
 }
 
 .text-container {
-    position: absolute;
-    left: 92rem;
+  position: relative;
+  /* left: 93rem; */
+  /* bottom: 6rem; */
+  text-align: left;
+  right: 44rem;
+  min-width: 25vw;
 }

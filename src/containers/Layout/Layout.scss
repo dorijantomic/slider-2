@@ -1,10 +1,11 @@
 .layout-container {
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-    overflow: hidden;
+  display: flex;
+  flex-flow: column;
+
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .layout-main-container {
-    display: flex;
+  display: flex;
 }

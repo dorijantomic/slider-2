@@ -4,7 +4,11 @@ import "./TextContent.scss";
 const TextContent = () => {
   return (
     <div className="text-container">
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+      <h1>
+        Lorem ipsum dolor <br />
+        sit amet, consectetur
+        <br /> adipisicing elit
+      </h1>
       <p>
         Ut wisi enim ad minim veniam, quis <br /> nostrudexerci tation
         ullamcorper

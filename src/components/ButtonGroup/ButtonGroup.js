@@ -7,7 +7,7 @@ const ButtonGroup = () => {
         <a href="#" target="_blank" rel="noopener noreferrer">
           <img
             className="button-group-img"
-            src={require("../../images/icons/arrow-blue-left.png")}
+            src={require("../../images/icons/arrow-gray-left.png")}
             alt=""
             srcset=""
           />
@@ -18,7 +18,7 @@ const ButtonGroup = () => {
         <a href="#">
           <img
             className="button-group-img"
-            src={require("../../images/icons/arrow-gray-right.png")}
+            src={require("../../images/icons/arrow-blue-right.png")}
             alt=""
             srcset=""
           />
