@@ -17,17 +17,24 @@ export default class Layout extends Component {
       { id: 7, src: require("../../images/gallery/slider-image-7.jpg") },
       { id: 8, src: require("../../images/gallery/slider-image-8.jpg") },
       { id: 9, src: require("../../images/gallery/slider-image-9.jpg") }
-    ]
+    ],
+    move: 0
   };
+
+  slideRight = () => {
+    this.setState({
+      move: 533
+    })
+  }
   render() {
     return (
       <div className="layout-container">
          <Navigation className="navigation-top" />
          <div className="layout-main-container">
-          <Slider images={this.state.images}/>
+          <Slider images={this.state.images} move={this.state.move}/>
           <TextContent />
          </div>
-         <ButtonGroup />
+         <ButtonGroup slideRight={this.slideRight} />
         <Navigation className="navigation-bottom" />
       </div>
     );

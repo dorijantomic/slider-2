@@ -1,6 +1,6 @@
 import React from "react";
 import "./ButtonGroup.scss";
-const ButtonGroup = () => {
+const ButtonGroup = ({slideRight}) => {
   return (
     <div className="button-group-container">
       <div className="gray">
@@ -15,7 +15,10 @@ const ButtonGroup = () => {
       </div>
 
       <div className="blue">
-        <a href="#">
+        <a href="/" onClick={(e) => {
+            e.preventDefault()
+            slideRight()
+        }}> 
           <img
             className="button-group-img"
             src={require("../../images/icons/arrow-blue-right.png")}
