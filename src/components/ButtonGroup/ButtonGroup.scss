@@ -1,0 +1,25 @@
+.button-group-img {
+}
+
+.button-group-container {
+    position: fixed;
+    left: 87rem;
+    bottom: 17rem;
+}
+
+
+
+.gray,
+.blue {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.gray {
+  margin-bottom: 1rem;
+}

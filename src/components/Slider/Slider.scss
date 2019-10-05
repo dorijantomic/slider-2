@@ -1,3 +1,27 @@
-.slider-container {
-    flex: 1 0 auto;
+
+#slider {
+  height: 800px;
+
+
+ 
+}
+
+#slider-wrapper {
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.top, .bottom {
+  position: relative;
+
+}
+
+.top {
+  width: 110vw;
+  right: 39rem;
+}
+
+.bottom {
+  right: 18rem;
 }
